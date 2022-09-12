@@ -3,14 +3,13 @@
     font-size: 48px;
     font-weight: 700;
     color: var(--color-dark);
-    padding: 1rem;
+    margin-top: 1rem;
 }
 
 .recent__work-text {
     font-weight: 400;
     color: var(--body-light-mode);
-    padding: 1rem;
-    margin-bottom: 1.5rem;
+    margin: 2.5rem 0;
 }
 
 .recent__work-button {
@@ -20,7 +19,13 @@
     color: var(--white);
     text-decoration: none;
     font-weight: 600;
-    margin: 1rem;
 }
 
+.recent__work-img {
+   width: 100%;
+}
 
+.recent__work-img {
+    width: 100%;
+    margin-top: -6rem;
+}

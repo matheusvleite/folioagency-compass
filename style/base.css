@@ -4,6 +4,7 @@
    --body-light-mode: #606060;
    --color-primary: #5468E7;
    --white: #FFFFFF;
+   --mobile-menu: #595976;
 }
 
 body {
@@ -12,3 +13,10 @@ body {
     background-position: top right;
 }
 
+.container {
+    padding-left: 5%;
+}
+
+* {
+    box-sizing: border-box;
+}
