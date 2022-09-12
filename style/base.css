@@ -5,6 +5,8 @@
    --color-primary: #5468E7;
    --white: #FFFFFF;
    --mobile-menu: #595976;
+   --deactive: #ADADAD;
+   --black: #000000;
 }
 
 body {

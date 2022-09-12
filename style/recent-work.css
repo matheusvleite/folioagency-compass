@@ -1,4 +1,6 @@
-
+.recent__work {
+    margin-bottom: 3rem;
+}
 .recent__work-title {
     font-size: 48px;
     font-weight: 700;
