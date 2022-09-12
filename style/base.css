@@ -1,0 +1,14 @@
+:root {
+   --font-main: 'Montserrat', sans-serif;
+   --color-dark: #232340;
+   --body-light-mode: #606060;
+   --color-primary: #5468E7;
+   --white: #FFFFFF;
+}
+
+body {
+    font-family: var(--font-main);
+    background: url(../img/bg-line.svg) no-repeat;
+    background-position: top right;
+}
+
