@@ -36,10 +36,13 @@
     margin: .7rem;
 }
 
+.who__weare-navigation-link {
+    padding: .5rem;
+}
+
 .who__weare-navigation-link:hover {
     background: var(--color-primary);
     border-radius: 50%;
-    padding: .7rem;
 }
 
 .who__weare-navigation-link--active {

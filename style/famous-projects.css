@@ -6,7 +6,7 @@
 }
 
 .famous__projects-legend::before {
-    content: "4.";
+    content: "03.";
     color: var(--color-primary);
     font-size: 14px;
     font-weight: 600;
@@ -25,6 +25,32 @@
     color: var(--body-light-mode);
     margin: 1.8rem 0;
 }
+
+.work__famous-navigation {
+    display: flex;
+}
+
+.work__famous-navigation-item {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.work__famous-navigation-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .7rem;
+}
+
+.work__famous-navigation-link {
+    padding: 1rem;
+}
+
+.work__famous-navigation-link:hover {
+    background: var(--color-primary);
+    border-radius: 50%;
+}
+
 
 .famous__projects-card{
     background: var(--accent);

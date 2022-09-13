@@ -6,7 +6,7 @@
 }
 
 .achievement__legend::before {
-    content: "3.";
+    content: "02.";
     color: var(--color-dark);
     font-size: 14px;
     font-weight: 600;

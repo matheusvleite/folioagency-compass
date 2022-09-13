@@ -11,7 +11,7 @@
 .recent__work-text {
     font-weight: 400;
     color: var(--body-light-mode);
-    margin: 2.5rem 0;
+    margin: 2rem 0;
 }
 
 .recent__work-button {
@@ -23,11 +23,31 @@
     font-weight: 600;
 }
 
-.recent__work-img {
-   width: 100%;
+.recent__work-navigation {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.recent__work-navigation-item {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.recent__work-navigation-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .7rem;
+}
+.recent__work-navigation-link {
+    padding: 1rem;
+}
+.recent__work-navigation-link:hover {
+    background: var(--color-primary);
+    border-radius: 50%;
 }
 
 .recent__work-img {
     width: 100%;
-    margin-top: -6rem;
 }
+

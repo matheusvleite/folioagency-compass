@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Folio Agency 1.0</title>
+    <title>Services</title>
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
-
 <body>
     <header class="header">
         <nav class="header__nav">
             <ul class="header_list">
-                <li class="list-item"><img src="./img/light-mode.svg" alt="Logo"></li>
-                <li class="list-item"><img src="./img/burger icon.svg" alt="Menu" class="burguer-menu"></li>
+                <li class="list-item"><img src="../img/light-mode.svg" alt="Logo"></li>
+                <li class="list-item"><img src="../img/burger icon.svg" alt="Menu" class="burguer-menu"></li>
             </ul>
         </nav>
         <nav class="nav__mobile">
             <ul class="nav__mobile-menu">
-                <li class="mobile-menu-item"><img src="./img/logo-mobile-menu.svg" alt="Logo"></li>
-                <li class="mobile-menu-item"><img class="close-menu" src="./img/close icon.svg" alt="Close menu"></li>
+                <li class="mobile-menu-item"><img src="../img/logo-mobile-menu.svg" alt="Logo"></li>
+                <li class="mobile-menu-item"><img class="close-menu" src="../img/close icon.svg" alt="Close menu"></li>
             </ul>
             <ul class="nav__mobile-list">
-                <li class="mobile-item"><a href="./pages/work.html" class="mobile-item-link mobile-link-active">Work</a>
-                </li>
-                <li class="mobile-item"><a href="./pages/about.html" class="mobile-item-link">About</a></li>
-                <li class="mobile-item"><a href="./pages/services.html" class="mobile-item-link">Services</a></li>
-                <li class="mobile-item"><a href="./pages/jobs.html" class="mobile-item-link">Jobs</a></li>
+                <li class="mobile-item"><a href="../pages/work.html" class="mobile-item-link mobile-link-active">Work</a></li>
+                <li class="mobile-item"><a href="../pages/about.html" class="mobile-item-link">About</a></li>
+                <li class="mobile-item"><a href="../pages/services.html" class="mobile-item-link">Services</a></li>
+                <li class="mobile-item"><a href="../pages/jobs.html" class="mobile-item-link">Jobs</a></li>
             </ul>
             <ul class="socials__menu-mobile">
                 <li class="socials-item">
@@ -51,30 +48,36 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="recent__work">
-            <div class="container">
-                <h2 class="recent__work-title">Stand Out
-                    from The Crowd.</h2>
-                <p class="recent__work-text">Agency is a full-service agency, busy designing and
-                    building beautiful digital
-                    products, brands, and experiences.</p>
-                <ul class="recent__work-navigation">
-                    <li class="recent__work-navigation-item">
-                        <a href="./pages/about.html" class="recent__work-navigation-link">
-                            <img src="../img/arrow-right-black.svg" alt="Go to right">
-                        </a>
-                    </li>
-                </ul>
-                <a href="/not-found.html" class="recent__work-button">Recent Work</a>
-            </div>
-            <img src="./img/Recent work 3D.svg" alt="Recent Work" class="recent__work-img">
-        </section>
-    </main>
+    <section class="achievement">
+        <div class="container">
+            <h3 class="achievement__legend">Achievement</h3>
+            <h2 class="achievement__title">A design team building a curated marketplace for UI designers.</h2>
+            <h2 class="achievement__highlight">68</h2>
+            <p class="achievement__highlight-text">😎 Successful Projects</p>
+            <ul class="what__wedo-navigation">
+                <li class="what__wedo-item">
+                    <a href="../pages/services.html" class="what__wedo-navigation-link">
+                        <img src="../img/arrow-left-black.svg" alt="Go left">
+                    </a>
+                </li>
+                <li class="what__wedo-item">
+                    <a href="../pages/work.html" class="what__wedo-navigation-link">
+                        <img src="../img/arrow-right-black.svg" alt="Go right">
+                    </a>
+                </li>
+            </ul>
+            <img src="../img/phone achievement.svg" alt="Phone" class="achievement__img">
+            <ul class="achievement__input">
+                <input type="radio" name="Achievement" class="achiemvement__radio">
+                <input type="radio" name="Achievement" class="achiemvement__radio" checked>
+                <input type="radio" name="Achievement" class="achiemvement__radio">
+            </ul>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="footer__bg">
-                <img src="./img/SpeachBubble V2.svg" alt="" class="s footer__img-hello">
+                <img src="../img/SpeachBubble V2.svg" alt="" class="s footer__img-hello">
                 <h3 class="footer__text-hello">👋 Say hello</h3>
                 <p class="footer__text">A design team building a curated marketplace
                     for UI designers.</p>
@@ -82,7 +85,7 @@
                 <h2 class="footer__title">Let’s talk about your next project</h2>
                 <a href="/not-found.html" class="footer__button">Contact Us</a>
             </div>
-            <img src="./img/light-mode.svg" alt="Logo Folio" class="footer__img-logo">
+            <img src="../img/light-mode.svg" alt="Logo Folio" class="footer__img-logo">
             <p class="footer__logo-text">Agency is a full-service agency,
                 busy designing and building.</p>
             <select class="footer__menu-select" name="Menu" id="Menu">
@@ -91,21 +94,20 @@
             <ul class="footer__socials">
                 <li class="footer__socials-item">
                     <a href="#" class="footer__socials-link footer__socials-link-active">
-                        <img src="./img/logo-facebook.svg" alt="Youtube"></a>
+                        <img src="../img/logo-facebook.svg" alt="Youtube"></a>
                 </li>
                 <li class="footer__socials-item">
                     <a href="#" class="footer__socials-link">
-                        <img src="./img/logo-youtube.svg" alt="Youtube"></a>
+                        <img src="../img/logo-youtube.svg" alt="Youtube"></a>
                 </li>
                 <li class="footer__socials-item">
                     <a href="#" class="footer__socials-link">
-                        <img src="./img/logo-instagram.svg" alt="Youtube"></a>
+                        <img src="../img/logo-instagram.svg" alt="Youtube"></a>
                 </li>
             </ul>
             <p class="footer__copyright">© 2020, UI8 LLC.</p>
         </div>
     </footer>
-    <script src="./scripts/index.js"></script>
+    <script src="../scripts/index.js"></script>
 </body>
-
 </html>

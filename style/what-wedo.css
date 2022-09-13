@@ -35,10 +35,13 @@
     margin: 1rem;
 }
 
-.what__wedo-navigation-link--active {
+.what__wedo-navigation-link {
+    padding: 1rem;
+}
+
+.what__wedo-navigation-link:hover {
     background: var(--color-primary);
     border-radius: 50%;
-    padding: .7rem;
 }
 
 .what__wedo-thigs-item {
@@ -49,16 +52,11 @@
     display: flex;
     align-items: center;
     color: var(--color-primary);
+    cursor: pointer;
 }
 
 .what__wedo-thigs-text {
     margin-left: 1rem;
-    
-}
-
-.what__wedo-thigs-item--active {
-    background: var(--color-primary);
-    color: white;
 }
 
 .what__wedo-thigs-item:hover {
