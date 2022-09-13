@@ -1,0 +1,49 @@
+.we__arehiring {
+    background: url(../img/bg-line-mobile.svg) no-repeat right top var(--background-section);
+}
+
+.we__arehiring-legend {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.we__arehiring-legend::before {
+    content: "06.";
+    color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 1.5rem;
+}
+
+.we__arehiring-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-dark);
+    margin: 2rem 0;
+}
+
+.we__arehiring-text {
+    font-weight: 400;
+    color: var(--body-light-mode);
+    margin: 1.8rem 0;
+}
+
+.we__arehiring-card-job {
+    background-color: var(--white);
+    border-radius: 24px;
+    padding: 3.5rem;
+    margin: 1em 0;
+}
+
+.we__arehiring-list-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-dark);
+}
+
+.we__arehiring-list-text {
+    font-weight: 400;
+    color: var(--body-light-mode);
+    margin: 1rem 0;
+}

@@ -1,5 +1,5 @@
 .what__wedo {
-    background: rgba(230, 229, 229, 0.932)  url(../img/line\ 1.svg) no-repeat bottom center;
+    background: var(--background-section)  url(../img/line\ 1.svg) no-repeat bottom center;
 }
 
 .what__wedo-legend {
