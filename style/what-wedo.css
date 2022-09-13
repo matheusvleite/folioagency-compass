@@ -1,5 +1,5 @@
 .what__wedo {
-    background: rgba(245, 244, 244, 0.548)  url(../img/line\ 1.svg) no-repeat bottom center;
+    background: rgba(230, 229, 229, 0.932)  url(../img/line\ 1.svg) no-repeat bottom center;
 }
 
 .what__wedo-legend {
@@ -52,7 +52,8 @@
 }
 
 .what__wedo-thigs-text {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    
 }
 
 .what__wedo-thigs-item--active {

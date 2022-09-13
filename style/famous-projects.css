@@ -1,0 +1,68 @@
+.famous__projects-legend {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-primary);
+    padding-top: 2rem;
+}
+
+.famous__projects-legend::before {
+    content: "4.";
+    color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 1.5rem;
+}
+
+.famous__projects-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--black);
+    margin: .5em 0;
+}
+
+.famous__projects-text {
+    font-weight: 400;
+    color: var(--body-light-mode);
+    margin: 1.8rem 0;
+}
+
+.famous__projects-card{
+    background: var(--accent);
+    border-radius: 17px;
+    padding: 2rem;
+    margin-top: 2.5rem;
+}
+
+.famous__projects-card-img {
+    width: 100%;
+}
+
+.famous__projects-card-button {
+    background: var(--shade-7);
+    padding: 0.8rem 1.3rem;
+    border-radius: 14px;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 9.96px;
+}
+
+.famous__projects-figure-button {
+    border-radius: 50%;
+    border: 2px solid var(--black);
+    padding: 0.5rem;
+}
+
+.famous__projects-contactuse {
+    background: var(--color-primary);
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    border-radius: 12px;
+    margin: 3rem 0;
+}
+
