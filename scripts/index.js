@@ -9,4 +9,5 @@
     closeMenu.addEventListener('click', () => {
         navMenu.classList.remove('active')
     })
+
 }())

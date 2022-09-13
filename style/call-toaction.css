@@ -1,0 +1,42 @@
+.call__toaction {
+    background: url(../img/Mask.svg) no-repeat right 100%;
+    border-radius: 20px;
+    background-color: var(--color-primary);
+}
+
+
+.call__toaction-legend {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.call__toaction-legend::before {
+    content: "05.";
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 1.5rem;
+}
+
+.call__toaction-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--white);
+    margin: 2rem 0;
+}
+
+.call__toaction-button {
+    background: var(--white);
+    padding: 0.8rem 1.3rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+
+.call__toaction-img {
+    width: 100%;
+}
+
