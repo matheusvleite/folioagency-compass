@@ -1,7 +1,6 @@
 .who__weare {
    padding-top: 5rem;
    background: var(--color-dark);
-   height: 200vh;
 }
 
 .who__weare-legend {
@@ -27,6 +26,7 @@
 
 .who__weare-navigation {
     display: flex;
+    justify-content: space-around;
 }
 
 .who__weare-navigation-item {
@@ -54,7 +54,6 @@
     border: none;
     color: var(--white);
     font-size: 12px;
-    margin-left: 2rem;
     padding: 2rem;
 }
 
@@ -93,15 +92,15 @@
 
 .who__weare-highlight {
     border-radius: 50%;
+    width: 100%;
     max-width: 310px;
     height: 310px;
-    margin: 5em 2em;
-    text-align: center;
-    box-shadow: 0px 0px 11px 1px var(--black);
+    box-shadow: 0px 0px 11px 1px #00000061;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 5rem auto;
 }
 
 .who__weare-number {
@@ -115,3 +114,4 @@
     color: var(--white);
     font-weight: 600;
 }
+

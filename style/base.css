@@ -7,6 +7,8 @@
    --mobile-menu: #595976;
    --deactive: #ADADAD;
    --black: #000000;
+   --background-whatwedo: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%,
+    rgba(237, 229, 240, 0.504289) 100%);;
 }
 
 body {
@@ -17,6 +19,7 @@ body {
 
 .container {
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 * {
