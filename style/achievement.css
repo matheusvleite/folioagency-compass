@@ -34,12 +34,25 @@
     padding: 1rem;
 }
 
-.achievement__img {
-    width: 100%;
-}
+
 
 .achievement__input {
     text-align: center;
     padding: 1rem;
 }
 
+@media screen and (min-width: 1024px) {
+    
+    .achievement__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem;
+    }
+    
+    .achievement--left {
+        order: 2;
+        margin: 5rem;
+    }
+    
+}
