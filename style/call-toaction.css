@@ -61,3 +61,31 @@
     width: 100%;
 }
 
+.call__toaction-img-tablet {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    
+    .call__toaction-content {
+        display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+    .call__toaction-left {
+        order: 2;
+        width: 50%;
+        padding: 5rem;
+    }
+
+    .call__toaction-right {
+        width: 50%;
+    }
+    
+    .call__toaction-img-tablet {
+        display: block;
+    }
+    
+}
+
