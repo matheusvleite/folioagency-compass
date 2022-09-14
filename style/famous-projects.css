@@ -94,7 +94,7 @@
     margin: 1rem;
 }
 
-.famous__projects-contactuse {
+.famous__projects-contactus {
     background: var(--color-primary);
     padding: 1rem;
     width: 100%;
@@ -105,5 +105,81 @@
     font-weight: 600;
     border-radius: 12px;
     margin: 3rem 0;
+}
+
+.famous__projects-contactus-button {
+    display: none;
+}
+
+.famous__projects-featured {
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    .famous__projects-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5rem;
+    }
+
+    .famous__projects-title {
+        font-size: 84px;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .famous__projects-contactus-button {
+        background: var(--color-primary);
+        padding: 1rem;
+        display: flex;
+        text-decoration: none;
+        color: var(--white);
+        font-weight: 600;
+        border-radius: 12px;
+    }
+
+    .famous__projects-featured-btn {
+        padding: 1rem 1rem;
+        background-color: var(--shade-7);
+        border-radius: 24px;
+        text-decoration: none;
+        color: var(--white);
+        font-size: 12px;
+    }
+
+    .famous__projects-featured-title {
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--color-dark);
+        margin: 2rem 0;
+    }
+
+    .famous__projects-featured-text {
+        font-weight: 400;
+        content: var(--body-light-mode);
+    }
+
+    .famous__projects-featured {
+        display: flex;
+        align-items: center;
+    }
+
+    .famous__projects-featured-description {
+        padding: 3rem;
+        width: 40%;
+    }
+    
+    .famous__projects-featured-image  {
+        background: var(--shade-1);
+        border-radius: 20px;
+    }
+    .famous__projects-card-img {
+        width: auto;
+    }
+    
 }
 
