@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +13,22 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="header__nav">
             <ul class="header_list">
-                <li class="list-item"><img src="../img/light-mode.svg" alt="Logo"></li>
-                <li class="list-item"><img src="../img/burger icon.svg" alt="Menu" class="burguer-menu"></li>
+                <li class="list-item">
+                    <img src="../img/light-mode.svg" alt="Logo">
+                </li>
+                <li class="list-item">
+                    <img src="../img/burger icon.svg" alt="Menu" class="burguer-menu">
+                </li>
+                <li class="list-item-menu"><a href="../pages/about.html" class="list-item-link">About</a></li>
+                <li class="list-item-menu"><a href="../pages/about.html" class="list-item-link">Work</a></li>
+                <li class="list-item-menu"><a href="../pages/about.html" class="list-item-link">Services</a></li>
+                <li class="list-item-menu"><a href="./pages/about.html" class="list-item-link">Jobs</a></li>
+                <li class="list-item-menu"><a href="/not-found.html" class="list-item-button">Contact Us</a></li>
             </ul>
         </nav>
         <nav class="nav__mobile">
@@ -26,7 +37,9 @@
                 <li class="mobile-menu-item"><img class="close-menu" src="../img/close icon.svg" alt="Close menu"></li>
             </ul>
             <ul class="nav__mobile-list">
-                <li class="mobile-item"><a href="../pages/work.html" class="mobile-item-link mobile-link-active">Work</a></li>
+                <li class="mobile-item"><a href="../pages/work.html"
+                        class="mobile-item-link mobile-link-active">Work</a>
+                </li>
                 <li class="mobile-item"><a href="../pages/about.html" class="mobile-item-link">About</a></li>
                 <li class="mobile-item"><a href="../pages/services.html" class="mobile-item-link">Services</a></li>
                 <li class="mobile-item"><a href="../pages/jobs.html" class="mobile-item-link">Jobs</a></li>
@@ -49,40 +62,60 @@
         </nav>
     </header>
     <section class="who__weare">
-            <h3 class="who__weare-legend">Who We Are</h3>
-            <h2 class="who__weare-title">We Make Designs that Lead and Inpire.</h2>
-            <ul class="work__famous-navigation">
-                <li class="who__weare-navigation-item">
-                    <a href="/index.html" class="who__weare-navigation-link">
-                        <img src="../img/arrow left.svg" alt="Go to left">
-                    </a>
-                </li>
-                <li class="who__weare-navigation-item">
-                    <a href="../pages/services.html" class="who__weare-navigation-link">
-                        <img src="../img/arrow right.svg" alt="Go to right">
-                    </a>
-                </li>
-                <select class="who__weare-select" name="Year" id="Year">
-                    <option>2020</option>
-                    <option>2019</option>
-                    <option>2018</option>
-                </select>
-            </ul>
-        <img src="../img/WhoeweAre.svg" alt="Who we Are" class="who_weare-img">
-        <div class="who__weare-branding">
-            <h2 class="who__weare-img-text">
-                A design team building a curated marketplace for UI designers.
-            </h2>
-            <p class="who__weare-img-subtitle">
-                4,404 curated design resources to energize your creative workflow. We're a
-                growing family of 334,531 designers and makers from around the world
-            </p>
-            <a href="/not-found.html" class="who__weare-button">Contact Us</a>
-            <div class="who__weare-highlight">
-                <h2 class="who__weare-number">28</h2>
-                <p class="who__weare-number-text">Bigest Branding</p>
+        <div class="who__weare-content">
+            <div class="who__weare-describe-left">
+                <h3 class="who__weare-legend">Who We Are</h3>
+                <h2 class="who__weare-title">We Make Designs that
+                    Lead and Inpire.</h2>
+            </div>
+            <div class="who__weare-describe-left">
+                <ul class="work__famous-navigation">
+                    <li class="who__weare-navigation-item">
+                        <a href="/index.html" class="who__weare-navigation-link">
+                            <img src="../img/arrow left.svg" alt="Go to left">
+                        </a>
+                    </li>
+                    <li class="who__weare-navigation-item">
+                        <a href="../pages/services.html" class="who__weare-navigation-link">
+                            <img src="../img/arrow right.svg" alt="Go to right">
+                        </a>
+                    </li>
+                    <select class="who__weare-select tablet" name="Year" id="Year">
+                        <option>2020</option>
+                        <option>2019</option>
+                        <option>2018</option>
+                    </select>
+                </ul>
             </div>
         </div>
+        <img src="../img/WhoeweAre.svg" alt="Who we Are" class="who__weare-img tablet">
+        <div class="who__weare-img-box">
+            <img src="../img/Who We Are.svg" alt="Who we Are" class="who__weare-img-full">
+        </div>
+        <div class="who__weare-content">
+            <div class="who__weare-describe-left">
+                <div class="who__weare-branding">
+                    <h2 class="who__weare-img-text">
+                        A design team building a curated marketplace for UI designers.
+                    </h2>
+                    <p class="who__weare-img-subtitle">
+                        4,404 curated design resources to energize your creative workflow. We're a
+                        growing family of 334,531 designers and makers from around the world
+                    </p>
+                    <a href="/not-found.html" class="who__weare-button">Contact Us</a>
+                    </div>
+            </div>
+
+            <div class="who__weare-describe-left">
+                <div class="who__weare-branding">
+                <div class="who__weare-highlight">
+                    <h2 class="who__weare-number">28</h2>
+                    <p class="who__weare-number-text">Bigest Branding</p>
+                </div>
+                </div>
+            </div>
+            </div>
+             
     </section>
     <footer class="footer">
         <div class="footer__content">
@@ -118,6 +151,7 @@
             <p class="footer__copyright">© 2020, UI8 LLC.</p>
         </div>
     </footer>
-<script src="../scripts/index.js"></script>
+    <script src="../scripts/index.js"></script>
 </body>
+
 </html>

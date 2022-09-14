@@ -65,9 +65,12 @@
     color: var(--color-dark);
 }
 
-.who_weare-img {
-    width: 100%;
-    margin-top: 2rem;
+.who__weare-img {
+    width: 100%; 
+}
+
+.who__weare-img-full {
+    display: none;
 }
 
 .who__weare-branding {
@@ -121,3 +124,29 @@
     font-weight: 600;
 }
 
+@media screen and (min-width: 1024px) {
+    .who__weare-content {
+        display: flex;
+        padding: 5rem;
+        align-items: center;
+    }
+
+    .who__weare-img-full {
+        display: block;
+    }
+
+    .who__weare-img-box {
+        background-color: var(--accent);
+        background-image: url('../img/shape\ 3.svg');
+        background-repeat: no-repeat;
+        background-position: 110%;
+        background-size: 50% 110%;
+        border-radius: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .who__weare-describe-left {
+        width: 50%;
+    }
+  
+}
