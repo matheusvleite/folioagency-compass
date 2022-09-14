@@ -20,6 +20,13 @@
     padding: 1rem;
 }
 
+.famous__projects-title-card {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--black);
+    padding: 1rem;
+}
+
 .famous__projects-text {
     font-weight: 400;
     color: var(--body-light-mode);
@@ -55,7 +62,7 @@
 }
 
 .famous__projects-card{
-    background: var(--accent);
+    background: var(--accent-2);
     border-radius: 17px;
     padding: 2rem;
     margin-top: 2.5rem;
@@ -178,8 +185,18 @@
         border-radius: 20px;
     }
     .famous__projects-card-img {
-        width: auto;
+        width: 100%;
     }
-    
+
+    .famous__projects-card {
+        width: 350px;
+        height: 355px;
+    }
+
+    .famous__projects-title-card {
+        font-size: 32px;
+        font-weight: 700;
+    }
+      
 }
 

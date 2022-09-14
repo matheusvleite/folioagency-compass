@@ -58,19 +58,22 @@
 }
 
 @media screen and (min-width: 1024px) {
+  
   .recent__work {
-    display: flex;
-    align-items: center;
-    padding: 0 15% 0 15%;
-  }
-  .recent__work-left {
-    width: 30%;
+    padding: 5%;
   }
 
-  .recent__work-right {
-   width: 60%;
-   
+  .recent__work-container {
+    display: flex;
+    align-items: center;
   }
+
+  .recent__work-content {
+    width: 50%;
+    
+    justify-content: center;
+  }
+ 
     .recent__work-title {
     font-size: 64px;
   }

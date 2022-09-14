@@ -23,7 +23,7 @@
 }
 
 .footer__title {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
     color: var(--white);
     margin: 3rem 0;
@@ -79,13 +79,125 @@
     background: var(--color-primary);
 }
 
-.footer__socials-link-active {
-    background: var(--color-primary);
-}
-
 .footer__copyright {
     text-align: center;
     color: var(--deactive);
     font-size: 12px;
     margin: 1.5rem 0;
+}
+
+.footer__img-hello-tablet {
+    display: none;
+}
+
+.second, .block {
+    display: none;
+}
+
+.footer__button-tablet {
+    display: none;
+}
+
+.menu__footer {
+    display: none;
+}
+
+.line {
+    display: none;
+}
+
+.footer__socials-text {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__container-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__content-tablet-left {
+        padding: 5rem;
+        width: 50%;
+    }
+    .footer__content-tablet-right {
+        padding: 5rem;
+        width: 50%;
+        border-left: 1px solid white;
+    }
+
+    .second {
+        font-size: 24px;
+        display: block;
+    }
+
+    .footer__img-hello-tablet {
+        display: initial;
+    }
+    
+    .footer__text {
+        padding: 5rem 15rem;
+    }
+
+    .footer__button-tablet {
+        border-radius: 50px;
+        border: 1px solid var(--white);
+        padding: .8rem;
+        display: initial;
+    }
+
+    .block {
+        display: block;
+    }
+    .footer__logo-text {
+        padding: 0 10rem;
+    }
+
+    .menu__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .menu__footer-item {
+        margin: 1rem;
+    }
+
+    .menu__footer-link {
+        text-decoration: none;
+        color: var(--body-light-mode);
+        font-weight: 600;
+    }
+
+    .menu__footer-link:hover {
+        color: var(--color-primary);
+    }
+
+    .line {
+        display: block;
+    }
+    .teste {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__socials {
+        order: 2;
+    }
+
+    .footer__socials-link {
+        border: none;
+    }
+    
+    .footer__socials-item {
+        margin: 0;
+    }
+
+    .footer__socials-text {
+        display: block;
+        color: var(--color-primary);
+        font-weight: 600;
+        font-size: 12px;
+    }
 }

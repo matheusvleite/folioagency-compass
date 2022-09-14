@@ -34,6 +34,9 @@
     padding: 1rem;
 }
 
+.achievement__img {
+    width: 100%;
+}
 
 
 .achievement__input {
@@ -53,6 +56,10 @@
     .achievement--left {
         order: 2;
         margin: 5rem;
+    }
+
+    .achievement__img {
+        width: auto;
     }
     
 }

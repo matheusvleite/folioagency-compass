@@ -139,9 +139,8 @@
         background-color: var(--accent);
         background-image: url('../img/shape\ 3.svg');
         background-repeat: no-repeat;
-        background-position: 110%;
-        background-size: 50% 110%;
         border-radius: 20px;
+        background-position: right;
         width: 80%;
         margin: 0 auto;
     }

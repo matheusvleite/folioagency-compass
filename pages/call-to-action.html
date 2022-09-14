@@ -23,9 +23,9 @@
                     <img src="../img/burger icon.svg" alt="Menu" class="burguer-menu">
                 </li>
                 <li class="list-item-menu"><a href="../pages/about.html" class="list-item-link">About</a></li>
-                <li class="list-item-menu"><a href="../pages/about.html" class="list-item-link">Work</a></li>
-                <li class="list-item-menu"><a href="../pages/about.html" class="list-item-link">Services</a></li>
-                <li class="list-item-menu"><a href="./pages/about.html" class="list-item-link">Jobs</a></li>
+                <li class="list-item-menu"><a href="../pages/work.html" class="list-item-link">Work</a></li>
+                <li class="list-item-menu"><a href="../pages/services.html" class="list-item-link">Services</a></li>
+                <li class="list-item-menu"><a href="../pages/jobs.html" class="list-item-link">Jobs</a></li>
                 <li class="list-item-menu"><a href="/not-found.html" class="list-item-button">Contact Us</a></li>
             </ul>
         </nav>
@@ -87,23 +87,48 @@
     <footer class="footer">
         <div class="footer__content">
             <div class="footer__bg">
-                <img src="../img/SpeachBubble V2.svg" alt="" class="s footer__img-hello">
+                <img src="../img/SpeachBubble V2.svg" alt="" class="footer__img-hello tablet">
                 <h3 class="footer__text-hello">👋 Say hello</h3>
                 <p class="footer__text">A design team building a curated marketplace
                     for UI designers.</p>
                 <hr />
+                <div class="footer__container-tablet">
+                    <div class="footer__content-tablet-left">
                 <h2 class="footer__title">Let’s talk about your next project</h2>
-                <a href="/not-found.html" class="footer__button">Contact Us</a>
+                    </div>
+                <a href="/not-found.html" class="footer__button tablet">Contact Us</a>
+                <div class="footer__content-tablet-right">
+                <img src="../img/SpeachBubble V2.svg" alt="" class="footer__img-hello-tablet">
+                <h2 class="footer__title second">Invest in your designs today!</h2>
+                <a href="/not-found.html" class="footer__button-tablet">
+                    <img src="../img/arrow right.svg" alt="Go right">
+                </a>
+                </div>
+                </div>
             </div>
             <img src="../img/light-mode.svg" alt="Logo Folio" class="footer__img-logo">
-            <p class="footer__logo-text">Agency is a full-service agency,
+            <p class="footer__logo-text tablet">Agency is a full-service agency,
                 busy designing and building.</p>
-            <select class="footer__menu-select" name="Menu" id="Menu">
+                <p class="footer__logo-text block">Agency is a full-service agency, busy 
+                    designing and building beautiful digital products, brands, and experiences.</p>
+            <select class="footer__menu-select tablet" name="Menu" id="Menu">
                 <option><a href="/index.html">Home</a></option>
             </select>
+
+            <ul class="menu__footer">
+                <li class="menu__footer-item"><a href="../pages/about.html" class="menu__footer-link">About</a></li>
+                <li class="menu__footer-item"><a href="../pages/work.html" class="menu__footer-link">Work</a></li>
+                <li class="menu__footer-item"><a href="../pages/services.html" class="menu__footer-link">Services</a></li>
+                <li class="menu__footer-item"><a href="../pages/jobs.html" class="menu__footer-link">Jobs</a></li>
+            </ul>
+            <hr class="line"/>
+            <div class="teste">
             <ul class="footer__socials">
+                <li class="footer__socials-text">
+                    Follow us
+                </li>
                 <li class="footer__socials-item">
-                    <a href="#" class="footer__socials-link footer__socials-link-active">
+                    <a href="#" class="footer__socials-link">
                         <img src="../img/logo-facebook.svg" alt="Youtube"></a>
                 </li>
                 <li class="footer__socials-item">
@@ -116,6 +141,7 @@
                 </li>
             </ul>
             <p class="footer__copyright">© 2020, UI8 LLC.</p>
+        </div>
         </div>
     </footer>
 <script src="../scripts/index.js"></script>
