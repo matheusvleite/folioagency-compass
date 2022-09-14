@@ -6,6 +6,7 @@
     font-size: 14px;
     font-weight: 600;
     color: var(--color-primary);
+    padding: 1rem;
 }
 
 .we__arehiring-legend::before {
@@ -20,13 +21,17 @@
     font-size: 48px;
     font-weight: 700;
     color: var(--color-dark);
-    margin: 2rem 0;
+    padding: 1rem;
 }
 
 .we__arehiring-text {
     font-weight: 400;
     color: var(--body-light-mode);
-    margin: 1.8rem 0;
+    padding: 1rem;
+}
+
+.we__arehiring-list {
+    padding: 1rem;
 }
 
 .we__arehiring-card-job {
@@ -36,15 +41,24 @@
     margin: 1em 0;
 }
 
+.we__arehiring-card-job:hover {
+    color: var(--white);
+    background-color: var(--color-dark);
+    background-image: url(../img/Tablet\ hover.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    transform: scale(1.1);
+    transform-origin: left;
+}
+
 
 .we__arehiring-list-title {
     font-size: 24px;
     font-weight: 700;
-    color: var(--color-dark);
 }
 
 .we__arehiring-list-text {
     font-weight: 400;
-    color: var(--body-light-mode);
+    color: var(--deactive);
     margin: 1rem 0;
 }

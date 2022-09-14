@@ -2,7 +2,7 @@
     font-size: 14px;
     font-weight: 600;
     color: var(--color-primary);
-    padding-top: 2rem;
+    padding: 1rem;
 }
 
 .famous__projects-legend::before {
@@ -17,29 +17,28 @@
     font-size: 40px;
     font-weight: 700;
     color: var(--black);
-    margin: .5em 0;
+    padding: 1rem;
 }
 
 .famous__projects-text {
     font-weight: 400;
     color: var(--body-light-mode);
-    margin: 1.8rem 0;
+    padding: 1rem;
 }
 
 .work__famous-navigation {
     display: flex;
+    padding: 1rem;
 }
 
 .work__famous-navigation-item {
     display: flex;
-    margin-top: 1rem;
 }
 
 .work__famous-navigation-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: .7rem;
 }
 
 .work__famous-navigation-link {
@@ -51,12 +50,27 @@
     border-radius: 50%;
 }
 
+.famous__project-content {
+    padding: 1rem;
+}
 
 .famous__projects-card{
     background: var(--accent);
     border-radius: 17px;
     padding: 2rem;
     margin-top: 2.5rem;
+}
+
+.background-purple {
+    background: var(--shade-2);
+}
+
+.background-orange {
+    background: var(--shade-6);
+}
+
+.background-blue {
+    background: var(--shade-1);
 }
 
 .famous__projects-card-img {
@@ -77,6 +91,7 @@
     border-radius: 50%;
     border: 2px solid var(--black);
     padding: 0.5rem;
+    margin: 1rem;
 }
 
 .famous__projects-contactuse {

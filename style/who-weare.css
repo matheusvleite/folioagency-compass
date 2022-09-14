@@ -1,5 +1,4 @@
 .who__weare {
-   padding-top: 5rem;
    background: var(--color-dark);
 }
 
@@ -7,6 +6,7 @@
     font-size: 14px;
     font-weight: 600;
     color: var(--white);
+    padding: 1rem;
 }
 
 .who__weare-legend::before {
@@ -21,12 +21,12 @@
     font-size: 40px;
     font-weight: 700;
     color: var(--white);
-    margin-top: 1rem;
+    padding: 1rem;
 }
 
 .who__weare-navigation {
     display: flex;
-    margin-top: 1rem;
+    padding: 1rem;
 }
 
 .who__weare-navigation-item {
@@ -70,17 +70,20 @@
     margin-top: 2rem;
 }
 
+.who__weare-branding {
+    padding: 2rem 2rem;
+}
+
 .who__weare-img-text {
     font-size: 24px;
     font-weight: 700;
     color: var(--white);
-    margin-top: 2rem;
 }
 
 .who__weare-img-subtitle {
     font-weight: 400;
     color: var(--body-light-mode);
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
 
 .who__weare-button{
@@ -90,6 +93,7 @@
     color: var(--white);
     text-decoration: none;
     font-weight: 600;
+    margin-top: 50rem;
 }
 
 .who__weare-highlight {

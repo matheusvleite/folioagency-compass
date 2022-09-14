@@ -1,17 +1,18 @@
 .recent__work {
-    margin-bottom: 3rem;
+   margin-bottom: 3rem;
 }
 .recent__work-title {
     font-size: 48px;
     font-weight: 700;
     color: var(--color-dark);
     margin-top: 1rem;
+    padding: 1rem;
 }
 
 .recent__work-text {
     font-weight: 400;
     color: var(--body-light-mode);
-    margin: 2rem 0;
+    padding: 1rem;
 }
 
 .recent__work-button {
@@ -21,6 +22,7 @@
     color: var(--white);
     text-decoration: none;
     font-weight: 600;
+    margin: 1rem;
 }
 
 .recent__work-navigation {
@@ -49,5 +51,48 @@
 
 .recent__work-img {
     width: 100%;
+}
+
+.Swiper {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .recent__work {
+    display: flex;
+    align-items: center;
+    padding: 0 15% 0 15%;
+  }
+  .recent__work-left {
+    width: 30%;
+  }
+
+  .recent__work-right {
+   width: 60%;
+   
+  }
+    .recent__work-title {
+    font-size: 64px;
+  }
+
+  .recent__work-text {
+    margin: 1rem 0;
+  }
+
+  .recent__work-navigation {
+    display: none;
+  }
+  .Swiper {
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+  }
+    .swiper__text {
+    margin: 1rem;
+    width: 5%;
+    font-weight: 600;
+    color: var(--color-dark);
+    }
+  
 }
 

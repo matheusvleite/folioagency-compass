@@ -9,6 +9,7 @@
     font-size: 14px;
     font-weight: 600;
     color: var(--white);
+    padding: 1rem;
 }
 
 .call__toaction-legend::before {
@@ -23,24 +24,17 @@
     font-size: 48px;
     font-weight: 700;
     color: var(--white);
-    margin: 1.5rem 0;
+   padding: 1rem;
 }
 
 .call__toaction-navigation {
     display: flex;
-    margin-bottom: 2rem;
+    padding: 1rem;
 }
 
 .call__toaction-navigation-item {
     display: flex;
-    margin-top: 1rem;
-}
-
-.call__toaction-navigation-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: .7rem;
+    margin: 0.5rem;
 }
 
 .call__toaction-navigation-link {
@@ -59,6 +53,7 @@
     text-decoration: none;
     color: var(--color-primary);
     font-weight: 600;
+    margin: 1rem;
 }
 
 

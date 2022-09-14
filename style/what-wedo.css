@@ -6,7 +6,7 @@
     font-size: 14px;
     font-weight: 600;
     color: var(--color-primary);
-    padding-top: 2rem;
+    padding: 1rem;
 }
 
 .what__wedo-legend::before {
@@ -21,7 +21,7 @@
     font-size: 40px;
     font-weight: 700;
     color: var(--black);
-    margin-top: 2rem;
+    padding: 1rem;
 }
 
 .what__wedo-navigation {
@@ -32,7 +32,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
 }
 
 .what__wedo-navigation-link {
@@ -42,6 +41,10 @@
 .what__wedo-navigation-link:hover {
     background: var(--color-primary);
     border-radius: 50%;
+}
+
+.what__wedo-things {
+    padding: 1rem;
 }
 
 .what__wedo-thigs-item {

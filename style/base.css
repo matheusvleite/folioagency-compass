@@ -11,6 +11,8 @@
     --accent: #FFBA79;
     --shade-7: #908CFF;
     --shade-2: #E8BEFF;
+    --shade-6: #FFCE79;
+    --shade-1: #D1ECFD;
 
 }
 
@@ -18,11 +20,6 @@ body {
     font-family: var(--font-main);
     background: url(../img/bg-line.svg) no-repeat;
     background-position: top right;
-}
-
-.container {
-   padding: 5%;
-    
 }
 
 * {
