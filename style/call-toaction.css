@@ -1,6 +1,6 @@
 .call__toaction {
     border-radius: 20px;
-    background-color: var(--color-primary);
+    padding: 1.5rem;
 }
 
 
@@ -64,13 +64,22 @@
     display: none;
 }
 
+.call__toaction-content {
+    
+   background-color: var(--color-primary);
+   border-radius: 20px;
+}
+
 @media screen and (min-width: 1024px) {
-    
-    
+    .call__toaction {
+        padding: 5rem;
+    }
     .call__toaction-content {
         display: flex;
        align-items: center;
        justify-content: space-between;
+       border-radius: 20px;
+       background: url('../img/Mask.svg') no-repeat right var(--color-primary);
     }
     .call__toaction-left {
         order: 2;
@@ -85,6 +94,7 @@
     .call__toaction-img-tablet {
         display: block;
     }
+
     
 }
 

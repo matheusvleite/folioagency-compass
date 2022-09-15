@@ -69,7 +69,7 @@
     width: 100%; 
 }
 
-.who__weare-img-full {
+.who__weare-img-full, .who__weare-side-list {
     display: none;
 }
 
@@ -137,6 +137,7 @@
 
     .who__weare-img-full {
         display: block;
+       
     }
 
     .who__weare-img-box {
@@ -148,5 +149,28 @@
        justify-content: center;
        align-items: center;
     }
+
+    .who__weare-side-link {
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--deactive);
+    }
+
+    .who__weare-side-link:hover {
+        color: var(--white);
+    }
+
+    .who__weare-side-list {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        margin-right: 5rem;
+    }
+
+    
+
+ 
   
 }
