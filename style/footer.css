@@ -13,6 +13,7 @@
     font-size: 14px;
     color: var(--white);
     font-weight: 600;
+    margin-top: 2rem;
 }
 
 .footer__text {
@@ -106,7 +107,7 @@
     display: none;
 }
 
-.footer__socials-text {
+.footer__socials-text, .footer__img-symbol {
     display: none;
 }
 
@@ -132,12 +133,13 @@
         display: block;
     }
 
-    .footer__img-hello-tablet {
+    .footer__img-hello-tablet, .footer__img-symbol {
         display: initial;
     }
     
     .footer__text {
         padding: 5rem 15rem;
+        margin: 0;
     }
 
     .footer__button-tablet {

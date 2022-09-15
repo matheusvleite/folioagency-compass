@@ -125,6 +125,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .who__weare {
+        background-image: url('../img/Path.svg');
+        background-repeat: no-repeat;
+    }
     .who__weare-content {
         display: flex;
         padding: 5rem;
@@ -136,16 +140,13 @@
     }
 
     .who__weare-img-box {
-        background-color: var(--accent);
-        background-image: url('../img/shape\ 3.svg');
-        background-repeat: no-repeat;
-        border-radius: 20px;
-        background-position: right;
-        width: 80%;
-        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     .who__weare-describe-left {
-        width: 50%;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
     }
   
 }

@@ -1,8 +1,12 @@
+
+.header__nav {
+    padding: 2.5rem;
+}
+
 .header_list {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem;
 }
 
 .list-item-menu {
@@ -14,11 +18,6 @@
         display: none;
     }
 
-    .header_list {
-        padding: 2rem;
-        justify-content: space-between;
-    }
-    
     .list-item-menu {
         display: block;
     }

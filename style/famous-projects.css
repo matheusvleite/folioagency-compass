@@ -173,6 +173,10 @@
     .famous__projects-featured {
         display: flex;
         align-items: center;
+        justify-content: center;
+        background-image: url('../img/Female\ Running\ Colorful\ 2@2x\ Copy.svg');
+        background-repeat: no-repeat;
+        background-position: right 90%;
     }
 
     .famous__projects-featured-description {
