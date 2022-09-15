@@ -201,6 +201,24 @@
         font-size: 32px;
         font-weight: 700;
     }
-      
-}
 
+    .famous__project-cards-list {
+            display: grid; 
+            grid-template-columns: auto; 
+            grid-template-rows: 300px 537px 239px 700px;
+            gap: 0px 0px; 
+          }
+          .empty { grid-area: 1 / 1 / 2 / 2; }
+          .card-one { grid-area: 1 / 2 / 2 / 3; margin: 5rem;}
+          .card-two { grid-area: 2 / 1 / 3 / 2; margin: 4rem;}
+          .empty-three { grid-area: 3 / 1 / 4 / 2; }
+          .card-three { grid-area: 3 / 2 / 4 / 3; margin: 5rem;}
+          .card-four { grid-area: 4 / 1 / 5 / 2; margin: 4rem;}
+          .empty-four { grid-area: 4 / 2 / 5 / 3; }
+          
+          .famous__projects-card-img-left {
+                margin-left: -9rem;
+          }
+
+
+        }
