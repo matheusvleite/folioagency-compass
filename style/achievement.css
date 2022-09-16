@@ -1,3 +1,7 @@
+.achievement {
+    padding: 2rem;
+}
+
 .achievement__legend {
     font-size: 14px;
     font-weight: 600;
@@ -36,6 +40,8 @@
 
 .achievement__img {
     width: 100%;
+    display: flex;
+    margin: 0 auto;
 }
 
 
@@ -50,16 +56,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 5rem;
     }
     
     .achievement--left {
         order: 2;
-        margin: 5rem;
+        width: 40%;
+    }  
+}
+
+@media screen and (min-width: 1440px){
+    .achievement__title {
+        font-size: 32px;
     }
 
-    .achievement__img {
-        width: auto;
+    .achievement__highlight {
+        font-size: 200px;
     }
-    
+
+    .achievement__highlight-text {
+        font-size: 24px;
+    }
 }

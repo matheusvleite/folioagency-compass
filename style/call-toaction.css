@@ -60,7 +60,7 @@
     width: 100%;
 }
 
-.call__toaction-img-tablet {
+.call__toaction-img-tablet, .call__toaction-img-desktop {
     display: none;
 }
 
@@ -81,6 +81,12 @@
        border-radius: 20px;
        background: url('../img/Mask.svg') no-repeat right var(--color-primary);
     }
+   
+    .call__toaction-box {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
     .call__toaction-left {
         order: 2;
         width: 50%;
@@ -95,6 +101,23 @@
         display: block;
     }
 
+    .call__toaction-img-desktop {
+        display: none;
+    }
     
+}
+
+@media screen and (min-width: 1440px) {
+    .call__toaction-content {
+        height: 100vh;
+    }
+
+    .call__toaction-img-desktop {
+        display: block;
+    }
+
+    .call__toaction-img-tablet {
+        display: none;
+    }
 }
 

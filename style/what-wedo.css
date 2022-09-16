@@ -1,5 +1,5 @@
 .what__wedo {
-    background: var(--background-section)  url(../img/line\ 1.svg) no-repeat bottom center;
+    background: var(--background-section)  url('../img/line\ 2.svg') no-repeat top center;
 }
 
 .what__wedo-legend {
@@ -104,6 +104,7 @@
     .what__wedo-thigs-item {
         flex-direction: column;
         padding: 5rem 2rem;
+        margin-bottom: 8rem;
     }
 
     .what__wedo-thigs-item:nth-child(1) {
@@ -124,5 +125,19 @@
         color: white;
         border-radius: 32px;
         transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .what__wedo-thigs-item {
+       padding: 8rem 4rem;
+    }
+
+    .what__wedo {
+        background-position: left top;
+    }
+
+    .what__wedo-content {
+        padding: 4rem 27rem;
     }
 }

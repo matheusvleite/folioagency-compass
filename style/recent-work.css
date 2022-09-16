@@ -100,3 +100,9 @@
   
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    background-position: center top;
+  }
+}
+

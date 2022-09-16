@@ -145,7 +145,6 @@
         justify-content: center;
     }
     .who__weare-describe-left {
-       width: 100%;
        justify-content: center;
        align-items: center;
     }
@@ -169,8 +168,37 @@
         margin-right: 5rem;
     }
 
-    
-
- 
+    .who__weare-highlight {
+     
+        width: 310px;
+        height: 310px;
+    }
   
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .who__weare-content {
+    padding: 5rem 18rem;
+    }
+
+    .who__weare-title {
+        font-size: 64px;
+    }
+
+    .who__weare-legend {
+        font-size: 18px;
+    }
+
+    .who__weare-img-text {
+        font-size: 32px;
+    }
+
+    .who__weare-img-subtitle {
+        font-size: 18px;
+    }
+
+    .who__weare-side-link {
+        font-size: 18px;
+    }
 }
