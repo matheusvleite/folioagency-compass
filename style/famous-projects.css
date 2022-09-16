@@ -222,3 +222,11 @@
 
 
         }
+
+        @media screen and (min-width: 1440px) {
+            .famous__project-cards-list {
+                gap: 0 50px;
+                padding: 0 10rem;
+            }
+            
+        }
