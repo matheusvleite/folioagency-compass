@@ -228,5 +228,8 @@
                 gap: 0 50px;
                 padding: 0 10rem;
             }
+            .famous__projects-featured-image {
+                padding: 2rem;
+            }
             
         }

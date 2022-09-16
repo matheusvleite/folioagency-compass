@@ -76,4 +76,9 @@
     .achievement__highlight-text {
         font-size: 24px;
     }
+
+    .achievement--right {
+        width: 25%;
+    margin-right: 2rem;
+    }
 }
