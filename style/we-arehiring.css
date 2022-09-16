@@ -64,6 +64,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .what__wedo {
+        background: var(--background-section) url(../img/line\ 1.svg) no-repeat top center;
+    }
+    
     .we__arehiring-content {
         display: flex;
         justify-content: center;
@@ -85,5 +89,24 @@
 
     .we__arehiring {
         background: url(../img/bg-line-mobile.svg) no-repeat center top var(--background-section);
+    }
+
+    .what__wedo-thigs-item {
+        margin-bottom: 8rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .what__wedo-thigs-item {
+       padding: 8rem 4rem;
+       margin-bottom: 8rem;
+    }
+
+    .what__wedo {
+        background: var(--background-section) url(../img/line\ 1.svg) no-repeat top center;
+    }
+
+    .what__wedo-content {
+        padding: 4rem 27rem;
     }
 }
